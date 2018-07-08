@@ -3,7 +3,7 @@ import UglifyJsWebpackPlugin from 'uglifyjs-webpack-plugin'
 import CleanWebpackPlugin from 'clean-webpack-plugin'
 
 module.exports = {
-  mode: 'development',
+  mode: 'production',
   entry: {
     app: './src/index.js'
   },
